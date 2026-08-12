@@ -5,8 +5,8 @@ import { createServer } from "./youtube-tools";
 
 export interface Env {
   OAUTH_KV: KVNamespace;
-  BUSINESS_DB: D1Database;
-  OAUTH_PROVIDER: OAuthHelpers;
+BUSINESS_DB: D1Database;
+OAUTH_PROVIDER: OAuthHelpers;
   GOOGLE_CLIENT_ID: string;
   GOOGLE_CLIENT_SECRET: string;
   COOKIE_ENCRYPTION_KEY: string;

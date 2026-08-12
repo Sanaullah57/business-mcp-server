@@ -1,7 +1,20 @@
-"d1_databases": [
-  {
-    "binding": "BUSINESS_DB",
-    "database_name": "business-mcp-db",
-    "database_id": "9b8899c9-15b3-47d2-bb4a-a603566ab934"
-  }
-]
+{
+  "name": "business-mcp-server",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-12",
+
+  "kv_namespaces": [
+    {
+      "binding": "OAUTH_KV",
+      "id": "af4b8a70e601420d9e08e6e732748c23"
+    }
+  ],
+
+  "d1_databases": [
+    {
+      "binding": "BUSINESS_DB",
+      "database_name": "business-mcp-db",
+      "database_id": "9b8899c9-15b3-47d2-bb4a-a603566ab934"
+    }
+  ]
+}

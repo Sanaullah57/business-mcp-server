@@ -1,4 +1,4 @@
-import { amazonAdapter } from "../integrations/amazon-placeholder"; // see note below
+import { amazonAdapter } from "../integrations/amazon/adapter"; // see note below
 import { shopifyAdapter } from "../integrations/shopify/adapter";
 import { metaAdapter } from "../integrations/meta/adapter";
 
